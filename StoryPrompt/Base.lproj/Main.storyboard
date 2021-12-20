@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Add Story Prompt View Controller-->
+        <!--New Story Prompt-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="AddStoryPromptViewController" customModule="StoryPrompt" customModuleProvider="target" sceneMemberID="viewController">
@@ -126,7 +126,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Generate Story Prompt"/>
                                         <connections>
-                                            <action selector="generateStoryPrompt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vb6-dL-nLy"/>
+                                            <segue destination="Z8B-2J-z5X" kind="show" id="1Ft-D1-QT4"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -140,7 +140,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8Ij-gx-cHD" secondAttribute="trailing" constant="20" id="wew-6K-r44"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="yza-fY-vko"/>
+                    <navigationItem key="navigationItem" title="New Story Prompt" id="yza-fY-vko"/>
                     <connections>
                         <outlet property="adjectiveTextField" destination="N4E-ap-bHX" id="mue-AQ-j1C"/>
                         <outlet property="nounTextField" destination="6ms-Ym-Row" id="Wf3-DE-2jU"/>
@@ -187,6 +187,7 @@
                             <constraint firstItem="hfU-QD-T4S" firstAttribute="centerY" secondItem="daJ-Dl-pja" secondAttribute="centerY" id="vTK-Kd-dJV"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="XIZ-wv-JGZ"/>
                     <connections>
                         <outlet property="storyPromptTextView" destination="hfU-QD-T4S" id="HLh-6e-sen"/>
                     </connections>
