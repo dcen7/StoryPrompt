@@ -15,6 +15,7 @@
 		FB83AABF2767BF1100574463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB83AABD2767BF1100574463 /* LaunchScreen.storyboard */; };
 		FB83AAC92767C06F00574463 /* StoryPromptEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB83AAC72767C06F00574463 /* StoryPromptEntry.swift */; };
 		FB83AACA2767C06F00574463 /* StoryPrompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB83AAC82767C06F00574463 /* StoryPrompts.swift */; };
+		FBA4DEC72771017500BBDFD8 /* StoryPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA4DEC62771017500BBDFD8 /* StoryPromptViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FB83AAC02767BF1100574463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB83AAC72767C06F00574463 /* StoryPromptEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryPromptEntry.swift; sourceTree = "<group>"; };
 		FB83AAC82767C06F00574463 /* StoryPrompts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryPrompts.swift; sourceTree = "<group>"; };
+		FBA4DEC62771017500BBDFD8 /* StoryPromptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPromptViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +62,10 @@
 		FB83AAB12767BF0C00574463 /* StoryPrompt */ = {
 			isa = PBXGroup;
 			children = (
+				FBA4DEC82771017F00BBDFD8 /* View Controllers */,
 				FB83AAC62767C00A00574463 /* Model */,
 				FB83AAB22767BF0C00574463 /* AppDelegate.swift */,
 				FB83AAB42767BF0C00574463 /* SceneDelegate.swift */,
-				FB83AAB62767BF0C00574463 /* ViewController.swift */,
 				FB83AAB82767BF0C00574463 /* Main.storyboard */,
 				FB83AABB2767BF1100574463 /* Assets.xcassets */,
 				FB83AABD2767BF1100574463 /* LaunchScreen.storyboard */,
@@ -79,6 +81,15 @@
 				FB83AAC82767C06F00574463 /* StoryPrompts.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FBA4DEC82771017F00BBDFD8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB83AAB62767BF0C00574463 /* ViewController.swift */,
+				FBA4DEC62771017500BBDFD8 /* StoryPromptViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBA4DEC72771017500BBDFD8 /* StoryPromptViewController.swift in Sources */,
 				FB83AACA2767C06F00574463 /* StoryPrompts.swift in Sources */,
 				FB83AAB72767BF0C00574463 /* ViewController.swift in Sources */,
 				FB83AAB32767BF0C00574463 /* AppDelegate.swift in Sources */,
